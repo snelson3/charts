@@ -71,7 +71,7 @@ The following table lists the configurable parameters of the Spark chart and the
 | `Worker.CpuTargetPercentage` | k8s hpa cpu targetPercentage         | `50`                                                       |
 | `Worker.DaemonMemory`        | Worker JVM Xms and Xmx setting       | `1g`                                                       |
 | `Worker.ExecutorMemory`      | Worker memory available for executor | `1g`                                                       |
-| `Worker.Autoscaling`         | Enable horizontal pod autoscaling    | `false`                                                    |
+| `Worker.Autoscaling.Enabled`         | Enable horizontal pod autoscaling    | `false`                                                    |
 
 
 ### Zeppelin
